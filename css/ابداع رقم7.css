@@ -570,14 +570,14 @@
   animation: json 0.8s linear forwards;
 }
 
-.skils .row > div .progres ul .php::after {
+.skils .row > div .progres ul .node_js::after {
   content: "";
   position: absolute;
   background: #149ddd;
   height: 10px;
   top: calc(100% + 10px);
   left: 0;
-  animation: PHP 0.8s linear forwards;
+  animation: node_js 0.8s linear forwards;
 }
 
 .skils .row > div .progres ul .mysql::after {
@@ -621,7 +621,7 @@
     width: 0;
   }
   to {
-    width: 95%;
+    width: 80%;
   }
 }
 @keyframes NEST {
@@ -645,7 +645,7 @@
     width: 0;
   }
   to {
-    width: 95%;
+    width: 80%;
   }
 }
 @keyframes CSS {
@@ -653,7 +653,7 @@
     width: 0;
   }
   to {
-    width: 93%;
+    width: 80%;
   }
 }
 @keyframes CSS3 {
@@ -661,7 +661,7 @@
     width: 0;
   }
   to {
-    width: 93%;
+    width: 80%;
   }
 }
 @keyframes JAVASCRIPR {
@@ -669,7 +669,7 @@
     width: 0;
   }
   to {
-    width: 75%;
+    width: 70%;
   }
 }
 @keyframes js_bom {
@@ -677,7 +677,7 @@
     width: 0;
   }
   to {
-    width: 85%;
+    width: 70%;
   }
 }
 @keyframes js_dom {
@@ -685,7 +685,7 @@
     width: 0;
   }
   to {
-    width: 80%;
+    width: 70%;
   }
 }
 @keyframes vue_js {
@@ -693,7 +693,7 @@
     width: 0;
   }
   to {
-    width: 80%;
+    width: 60%;
   }
 }
 @keyframes sass {
@@ -701,7 +701,7 @@
     width: 0;
   }
   to {
-    width: 86%;
+    width: 65%;
   }
 }
 @keyframes ajax {
@@ -720,7 +720,7 @@
     width: 80%;
   }
 }
-@keyframes PHP {
+@keyframes node_js {
   from {
     width: 0;
   }
@@ -733,7 +733,7 @@
     width: 0;
   }
   to {
-    width: 75%;
+    width: 70%;
   }
 }
 @keyframes mysql {
@@ -741,7 +741,7 @@
     width: 0;
   }
   to {
-    width: 80%;
+    width: 70%;
   }
 }
 @keyframes laravel {
