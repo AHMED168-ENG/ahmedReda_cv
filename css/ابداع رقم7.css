@@ -607,6 +607,24 @@
   left: 0;
   animation: POSTGRES 0.8s linear forwards;
 }
+.skils .row > div .progres ul .type::after {
+  content: "";
+  position: absolute;
+  background: #149ddd;
+  height: 10px;
+  top: calc(100% + 10px);
+  left: 0;
+  animation: type 0.8s linear forwards;
+}
+.skils .row > div .progres ul .graphql::after {
+  content: "";
+  position: absolute;
+  background: #149ddd;
+  height: 10px;
+  top: calc(100% + 10px);
+  left: 0;
+  animation: graphql 0.8s linear forwards;
+}
 .skils .row > div .progres ul .NEST::after {
   content: "";
   position: absolute;
@@ -625,6 +643,22 @@
   }
 }
 @keyframes NEST {
+  from {
+    width: 0;
+  }
+  to {
+    width: 60%;
+  }
+}
+@keyframes graphql {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+@keyframes type {
   from {
     width: 0;
   }
