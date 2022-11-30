@@ -302,9 +302,9 @@
   margin-bottom: 30px;
 }
 .about .img-profile {
-  background-image: url("../img/profile-img.jpg");
+  background-image: url("../img/myPc.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   height: 370px;
 }
 .about .info header h2 {
